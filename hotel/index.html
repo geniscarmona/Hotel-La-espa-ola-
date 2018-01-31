@@ -1,0 +1,62 @@
+<!DOCTYPE HTML> 
+<html lang="es">
+	<head>
+		<title>Hotel Viva España</title> 
+		<meta charset="UTF-8">
+		<meta name="author" content="Uvuvwevwevwe Onyetenyevwe Ugwemuhwem Osas">
+		<link rel="stylesheet" type="text/css" href="index.css"> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+		<script src="index.js"></script> 
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+	</head>  
+
+	<body> 
+		<header class="normal">  
+				<nav>
+					<img width="3%" class="menu" src="http://www.vn2ny.com/image/menu.png">
+					<h1 class="titulo">Hotel La Española</h1> 
+					<ul class="navbar"> 
+						<li class="lielement"><a class="links" target="_blank" href="./Opinión.php">OPINIONES</a></li><hr class="line-form">
+						<li class="lielement"><a class="links" target="_blank" href="">CONTACTO2</a></li><hr class="line-form">
+						<li class="lielement"><a class="links" target="_blank" href="">CONTACTO3</a></li><hr class="line-form">
+						<li class="lielement" id="menu-reserva">RESERVAR</li>  
+					</ul> 
+					<form class="formreserva" method="post" action="reserva.php"> 
+						<label>NOMBRE COMPLETO</label> 
+						<input type="text" name="nombre" placeholder="NOMBRE COMPLETO">
+						<label>FECHA</label> 
+						<input type="text" name="fecha" placeholder="YYYY/MM/DD">
+						<label>CIUDAD</label> 
+						<select name="Ciudad">
+							<option value="Madrid">MADRID</option>
+							<option value="Valencia">VALENCIA</option>
+							<option value="Barcelona">BARCELONA</option>
+							<option value="Palma">PALMA DE MALLORCA</option>
+							<option value="Sevilla">SEVILLA</option>
+						</select> 
+						<label>CLASE DE HABITACIÓN</label> 
+						<select name="clase">
+							<option value="Baja">BAJA</option>
+							<option value="Media">MEDIA</option>
+							<option value="Alta">ALTA</option>
+							<option value="Muyalta">MUY ALTA</option>
+						</select>  
+						<input type="submit" name="aceptar" value="RESERVAR" class="submit-btn">
+					</form> 
+				</nav> 
+
+		</header> 
+		<div id="contenido1" class="contenido">
+				<h2>Un hotel inigualable</h2> 
+				<p>Este hotel ofrece todas las prestaciones para tener una experiencia premium e inigualable</p>
+		</div>
+		<div id="contenido2" class="contenido">
+				<h2>Viaja con seguridad de hospedaje</h2> 
+				<p>Tenemos hoteles en Madrid, Barcelona, Valencia, Palma de Mallorca y Sevilla de la mayor calidad que puedas imaginar</p>
+		</div>
+	</body> 
+</html>

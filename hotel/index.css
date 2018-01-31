@@ -1,0 +1,142 @@
+* { 
+	margin: 0;
+	padding: 0;
+ } 
+.titulo { 
+ 	margin-right: 77.1%; 
+ 	float: right; 
+ 	padding-top:  1%; 
+ 	font-family: 'Abel', sans-serif; 
+ 	color: white; 
+  } 
+header img { 
+  	margin-top:0.7%; 
+  	margin-left: 3%;
+   } 
+   .navbar { 
+   		margin-left: 2%; 
+   		list-style: none; 
+
+    .lielement { 
+    	padding: 1.5%; 
+    	font-size: 150%; 
+    	font-family: 'Montserrat', sans-serif;
+    	display: none; 
+    	text-decoration: none; 
+    	color:white;  
+    	text-align: center;
+
+    	
+     } 
+    .links { 
+     	text-decoration:none; 
+     	color: white; 
+
+      }
+    .normal { 
+      	background-color: black; 
+      	--webkit-transition: background-color 0.5s;
+      	transition: background-color 0.5s;
+      	
+       } 
+    nav { 
+       	background-color: rgba(0,0,0,1);
+        } 
+    hr { 
+        	margin-right: 3%;
+         } 
+    .lielement:hover { 
+    	background-color: rgba(0,0,0,0.5);
+     } 
+.enter { 
+	float: right;
+ } 
+ 
+  .formreserva { 
+  	display: none; 
+  	background-color: rgba(0,0,0,0.7);
+  	color: white; 
+  	text-align: center; 
+  	font-family: 'Montserrat', sans-serif;
+   } 
+   .formreserva input{ 
+   		margin: 1%; 
+   		padding: 1%; 
+   		font-family: 'Montserrat', sans-serif;
+
+    } 
+    .formreserva select { 
+    	margin:1%;
+    	padding: 1%;
+
+     } 
+     .formreserva option { 
+     	font-family: 'Montserrat', sans-serif;
+      } 
+.submit-btn { 
+	margin: 1%;
+	padding: 1%; 
+	margin-bottom: 3%;
+ } 
+ .line-form { 
+ 	display: none;
+  } 
+  footer {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white ;
+  text-align: center;
+  font-size: 120%; 
+  font-family: 'Open Sans Condensed', sans-serif; 
+  padding-top: 1%;
+  padding-bottom: 1%;
+}  
+#contenido1{ 
+	background-image: url(https://www.hotelkaktusplaya.es/imgs/es/hotel/piscina/piscina-hotel-kaktus-playa.jpg);
+	padding: 20%;
+ }  
+ #contenido2{ 
+ 	background-image: url(https://d1bvpoagx8hqbg.cloudfront.net/originals/experiencia-erasmus-en-palma-mallorca-espan-4b05922046893d78cecbed5949a9a246.jpg);
+ 	padding: 20%;
+  }
+ .contenido{ 
+ 	font-family: 'Muli', sans-serif;
+ 	color:white;
+ 	padding: 20%; 
+ 
+  } 
+  .contenido h2{  
+  	font-size: 300%;
+  	background-color: rgba(0,0,0,0.5);
+   }
+   .contenido p{ 
+   	padding: 3%;
+   	font-size: 150%;
+   	background-color: rgba(0,0,0,0.5);
+    }  
+.normal nav { 
+ 	--webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+ 	position: fixed;
+ 	width: 100%;
+  } 
+ .normal img { 
+ 	width: 3%;
+ 	text-align: center;
+ 	margin-top:0.7%; 
+  	margin-left: 3%;
+  	--webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+  } 
+  .normal nav h1{ 
+  	
+ 	margin-right: 77.1%; 
+ 	float: right; 
+ 	padding-top:  1%; 
+ 	font-family: 'Abel', sans-serif; 
+ 	color: white; 
+ 	--webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+   } 
